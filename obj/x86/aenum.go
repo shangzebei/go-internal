@@ -2,7 +2,7 @@
 
 package x86
 
-import "cmd/internal/obj"
+import "github.com/shangzebei/go-internal/obj"
 
 //go:generate go run ../stringer.go -i $GOFILE -o anames.go -p x86
 
@@ -90,10 +90,12 @@ const (
 	ACLAC
 	ACLC
 	ACLD
+	ACLDEMOTE
 	ACLFLUSH
 	ACLFLUSHOPT
 	ACLI
 	ACLTS
+	ACLWB
 	ACMC
 	ACMOVLCC
 	ACMOVLCS
@@ -877,6 +879,7 @@ const (
 	ATESTL
 	ATESTQ
 	ATESTW
+	ATPAUSE
 	ATZCNTL
 	ATZCNTQ
 	ATZCNTW
@@ -884,10 +887,12 @@ const (
 	AUCOMISS
 	AUD1
 	AUD2
+	AUMWAIT
 	AUNPCKHPD
 	AUNPCKHPS
 	AUNPCKLPD
 	AUNPCKLPS
+	AUMONITOR
 	AV4FMADDPS
 	AV4FMADDSS
 	AV4FNMADDPS

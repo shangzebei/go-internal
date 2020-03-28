@@ -2,7 +2,7 @@
 
 package ppc64
 
-import "cmd/internal/obj"
+import "github.com/shangzebei/go-internal/obj"
 
 var Anames = []string{
 	obj.A_ARCHSPECIFIC: "ADD",
@@ -519,13 +519,19 @@ var Anames = []string{
 	"VSHASIGMA",
 	"VSHASIGMAW",
 	"VSHASIGMAD",
+	"VMRGEW",
+	"VMRGOW",
 	"LXV",
 	"LXVD2X",
-	"LXVDSX",
 	"LXVW4X",
+	"LXVH8X",
+	"LXVB16X",
+	"LXVDSX",
 	"STXV",
 	"STXVD2X",
 	"STXVW4X",
+	"STXVH8X",
+	"STXVB16X",
 	"LXS",
 	"LXSDX",
 	"STXS",

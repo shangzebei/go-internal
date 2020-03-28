@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"debug/elf"
 	"fmt"
-	"github.com/shangzebei/go-internal/xcoff"
+	"internal/xcoff"
 	"io"
 	"os"
 	"strconv"

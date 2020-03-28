@@ -30,7 +30,7 @@
 
 package arm
 
-import "cmd/internal/obj"
+import "github.com/shangzebei/go-internal/obj"
 
 //go:generate go run ../stringer.go -i $GOFILE -o anames.go -p arm
 
@@ -361,9 +361,6 @@ const (
 	AMULAWT
 	AMULAWB
 	AMULABB
-
-	ADATABUNDLE
-	ADATABUNDLEEND
 
 	AMRC // MRC/MCR
 

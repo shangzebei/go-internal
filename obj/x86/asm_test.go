@@ -5,8 +5,8 @@
 package x86
 
 import (
-	"cmd/internal/obj"
-	"cmd/internal/objabi"
+	"github.com/shangzebei/go-internal/obj"
+	"github.com/shangzebei/go-internal/objabi"
 	"testing"
 )
 

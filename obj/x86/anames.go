@@ -2,7 +2,7 @@
 
 package x86
 
-import "cmd/internal/obj"
+import "github.com/shangzebei/go-internal/obj"
 
 var Anames = []string{
 	obj.A_ARCHSPECIFIC: "AAA",
@@ -88,10 +88,12 @@ var Anames = []string{
 	"CLAC",
 	"CLC",
 	"CLD",
+	"CLDEMOTE",
 	"CLFLUSH",
 	"CLFLUSHOPT",
 	"CLI",
 	"CLTS",
+	"CLWB",
 	"CMC",
 	"CMOVLCC",
 	"CMOVLCS",
@@ -875,6 +877,7 @@ var Anames = []string{
 	"TESTL",
 	"TESTQ",
 	"TESTW",
+	"TPAUSE",
 	"TZCNTL",
 	"TZCNTQ",
 	"TZCNTW",
@@ -882,10 +885,12 @@ var Anames = []string{
 	"UCOMISS",
 	"UD1",
 	"UD2",
+	"UMWAIT",
 	"UNPCKHPD",
 	"UNPCKHPS",
 	"UNPCKLPD",
 	"UNPCKLPS",
+	"UMONITOR",
 	"V4FMADDPS",
 	"V4FMADDSS",
 	"V4FNMADDPS",

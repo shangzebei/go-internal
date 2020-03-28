@@ -5,7 +5,7 @@
 package obj
 
 import (
-	"cmd/internal/src"
+	"github.com/shangzebei/go-internal/src"
 	"fmt"
 	"testing"
 )

@@ -9,7 +9,7 @@ package objfile
 import (
 	"debug/dwarf"
 	"fmt"
-	"github.com/shangzebei/go-internal/xcoff"
+	"internal/xcoff"
 	"io"
 	"unicode"
 )

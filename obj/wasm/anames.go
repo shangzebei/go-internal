@@ -2,7 +2,7 @@
 
 package wasm
 
-import "cmd/internal/obj"
+import "github.com/shangzebei/go-internal/obj"
 
 var Anames = []string{
 	obj.A_ARCHSPECIFIC: "CallImport",
@@ -25,6 +25,11 @@ var Anames = []string{
 	"CallIndirect",
 	"Drop",
 	"Select",
+	"LocalGet",
+	"LocalSet",
+	"LocalTee",
+	"GlobalGet",
+	"GlobalSet",
 	"I32Load",
 	"I64Load",
 	"F32Load",

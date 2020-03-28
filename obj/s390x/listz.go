@@ -30,8 +30,8 @@
 package s390x
 
 import (
-	"cmd/internal/obj"
 	"fmt"
+	"github.com/shangzebei/go-internal/obj"
 )
 
 func init() {

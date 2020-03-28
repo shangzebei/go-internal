@@ -2,8 +2,6 @@
 
 package arm64
 
-import "cmd/internal/obj"
-
 var Anames = []string{
 	obj.A_ARCHSPECIFIC: "ADC",
 	"ADCS",
@@ -208,6 +206,7 @@ var Anames = []string{
 	"NGCS",
 	"NGCSW",
 	"NGCW",
+	"NOOP",
 	"ORN",
 	"ORNW",
 	"ORR",
@@ -460,10 +459,20 @@ var Anames = []string{
 	"VEOR",
 	"VMOV",
 	"VLD1",
+	"VLD2",
+	"VLD3",
+	"VLD4",
+	"VLD1R",
+	"VLD2R",
+	"VLD3R",
+	"VLD4R",
 	"VORR",
 	"VREV32",
 	"VREV64",
 	"VST1",
+	"VST2",
+	"VST3",
+	"VST4",
 	"VDUP",
 	"VADDV",
 	"VMOVI",
